@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools{
+	'JAVA_21'
+}
 
     stages {
         
